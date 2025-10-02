@@ -1,0 +1,11 @@
+Package: colSelect
+Type: Package
+Title: Interactive Column Selection for Data Frames
+Version: 1.0.0
+Author: YingjieChen and Deepseek
+Maintainer: YingjieChen <chen_ingjie@163.com>
+Description: Provides an interactive function to display and select column names from data frames
+    with R's indexing syntax, returning selected columns in dput format.
+License: MIT + file LICENSE
+LazyData: true
+Imports: 
