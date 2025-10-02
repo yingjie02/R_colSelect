@@ -7,5 +7,9 @@ col_select displays all column names of a given data frame with their indices, a
 
 selected <- colSelect::col_select(yourdf)
 yourdf <- yourdf |> mutate(across(selected, as.factor))
+
+
 or:
+
+
 yourdf[selected] <- lapply(yourdf[selected], factor)
